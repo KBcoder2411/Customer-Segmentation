@@ -1,8 +1,9 @@
-RFM Customer Segmentation Using K-Means Clustering
+RFM Customer Segmentation Using K-Means Clustering:
+
 This project implements RFM (Recency, Frequency, Monetary) analysis to segment customers based on their purchasing behavior and applies K-Means clustering for customer segmentation. This approach is widely used in marketing to identify different customer groups for targeted campaigns.
 
 
-Requirements
+Requirements: 
 To run the project, ensure you have the following dependencies installed:
 
 numpy
@@ -13,7 +14,7 @@ scikit-learn
 pickle
 
 
-Dataset
+Dataset: 
 The dataset used for this project is an online retail transaction dataset. It contains the following columns:
 
 InvoiceNo: Invoice number
@@ -40,12 +41,12 @@ Outliers in Amount, Recency, and Frequency are treated using the interquartile r
 K-Means Clustering
 The project applies K-Means Clustering to group customers into similar segments based on their RFM scores. The dataset is scaled using StandardScaler before applying K-Means.
 
-Model Training
+Model Training: 
 The K-Means model is trained using 3 clusters (you can change the number of clusters based on your analysis):
 
 
 
-Customer Segmentation
+Customer Segmentation: 
 Customers are categorized into the following segments based on RFM values:
 
 Best Customers: High-value, frequent, and recent customers.
@@ -55,16 +56,16 @@ New/Low-Value Customers: New customers or those with low engagement.
 
 
 
-Visualization
+Visualization: 
 The project visualizes customer behavior using Seaborn to plot box plots of Recency, Frequency, and Monetary metrics.
 
 
 
-Future Work
+Future Work: 
 Model Optimization: Experiment with different numbers of clusters using methods like the Elbow Method.
 Personalized Marketing: Use the segmented customer data for creating personalized marketing strategies.
 Dynamic RFM Analysis: Automate the segmentation process for real-time RFM analysis and customer tracking.
 
 
-Conclusion
+Conclusion: 
 This project demonstrates the use of RFM analysis combined with K-Means clustering to identify different customer segments. It provides a framework for understanding customer behavior and making data-driven marketing decisions.
